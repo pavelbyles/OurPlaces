@@ -1,0 +1,6 @@
+dispatch:
+  - url: "*/_ah/spi/*"
+    service: default
+
+  - url: "*/*"
+    service: frontend
